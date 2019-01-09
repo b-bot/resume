@@ -1,0 +1,93 @@
+#skills {
+    padding: 0;
+    position: relative;
+}
+
+#resume {
+    background: white;
+    color: black;
+}
+
+.icon--ei-chevron-left {
+    margin: 0 auto;
+    width: 50%;
+    fill: white;
+}
+
+.icon--ei-chevron-right {
+    margin: 0 auto;
+    width: 50%;
+    fill: white;
+}
+
+.icon--ei-eye {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-play {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-chart {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-cart {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-pencil {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-gear {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-like {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.igf-image {
+    margin: 1rem !important;
+}
+
+.igf-next-button {
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+    color: red;
+
+    font-size: 16px;
+    letter-spacing: 4px;
+
+    &:hover {
+        text-decoration: underline;
+        color: white;
+        cursor: pointer;
+    }
+}

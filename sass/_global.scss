@@ -1,0 +1,258 @@
+/** Ultra Light */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 100;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+  }
+  
+  /** Thin */
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 200;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+  }
+  
+  /** Regular */
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+  
+  /** Medium */
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 500;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+  }
+  
+  /** Semi Bold */
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 600;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+  }
+  
+  /** Bold */
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 700;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+  }
+
+  [data-reactroot] {
+    height: 100% !important;
+  }
+  
+  html {
+    font-size: 100%;
+  }
+  
+  body {
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    font-family: 'San Francisco', sans-serif !important;
+    margin: 0;
+  }
+  
+  section {
+    padding: 2rem;
+    border: 2px solid white;
+    border-bottom: 0;
+    border-top: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+
+  .title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    a {
+      color: red;
+      &:after {
+        content: "";
+        height: 1px;
+        background: black;
+        position: absolute;
+        pointer-events: none;
+        bottom: -5px;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transform: scale(0, 1);
+        transition: all 200ms;
+      }
+      &:hover:after {
+        opacity: 1;
+        transform: scale(1, 1);
+      }
+    }
+  }
+  
+  
+  .description {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 2rem;
+    a {
+      color: red;
+      &:after {
+        content: "";
+        height: 1px;
+        background: white;
+        position: absolute;
+        pointer-events: none;
+        bottom: -5px;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transform: scale(0, 1);
+        transition: all 200ms;
+      }
+      &:hover:after {
+        opacity: 1;
+        transform: scale(1, 1);
+      }
+    }
+  }
+  
+  .title-alt {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    a {
+      color: red;
+      &:after {
+        content: "";
+        height: 1px;
+        background: black;
+        position: absolute;
+        pointer-events: none;
+        bottom: -5px;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transform: scale(0, 1);
+        transition: all 200ms;
+      }
+      &:hover:after {
+        opacity: 1;
+        transform: scale(1, 1);
+      }
+    }
+  }
+  
+  .description-alt {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 2rem;
+    a {
+      color: red;
+      &:after {
+        content: "";
+        height: 1px;
+        background: black;
+        position: absolute;
+        pointer-events: none;
+        bottom: -5px;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transform: scale(0, 1);
+        transition: all 200ms;
+      }
+      &:hover:after {
+        opacity: 1;
+        transform: scale(1, 1);
+      }
+    }
+  }
+
+  .footer-item {
+    position: relative;
+    width: 100%;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    .b0t {
+      display: block;
+      width: 4rem;
+      margin: -1rem auto;
+      z-index: 5;
+    }
+    .bot img {
+      z-index: 5;
+    }
+  }
+
+  .icon--ei-sc-facebook {
+    fill: black;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .icon--ei-sc-facebook:hover {
+    fill: red;
+  }
+  
+  .icon--ei-sc-instagram {
+    fill: black;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .icon--ei-sc-instagram:hover {
+    fill: red;
+  }
+  
+  .icon--ei-sc-twitter{
+    fill: black;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .icon--ei-sc-twitter:hover {
+    fill: red;
+  }
+  
+  .icon--ei-sc-linkedin {
+    fill: black;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .icon--ei-sc-linkedin:hover {
+    fill: red;
+  }
+  
+  .icon--ei-sc-github {
+    fill: black;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .icon--ei-sc-github:hover {
+    fill: red;
+  }
+  
+  .icon--ei-sc-soundcloud {
+    fill: black;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .icon--ei-sc-soundcloud:hover {
+    fill: red;
+  }
+  
+  .icon--ei-envelope {
+    fill: black;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .icon--ei-envelope:hover {
+    fill: red;
+  }

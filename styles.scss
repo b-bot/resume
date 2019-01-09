@@ -1,0 +1,14 @@
+// Universal styling
+
+@import "sass/_global";
+
+// Page-level styling
+
+@import "sass/_index";
+@import "sass/_about";
+@import "sass/_music";
+@import "sass/_contact";
+
+// Mobile styling
+
+@import "sass/_responsive.scss";

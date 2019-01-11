@@ -1,0 +1,42 @@
+webpackHotUpdate("static/development/pages/index.js",{
+
+/***/ "./components/Details.js":
+/*!*******************************!*\
+  !*** ./components/Details.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var Details = function Details() {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-1806422534" + " " + "container"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "jsx-1806422534" + " " + "title"
+  }, "Let's Chat"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1806422534" + " " + "description"
+  }, "You can contact me through the following channels."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1806422534" + " " + "contact-details"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "mailto:byronpolley@live.com",
+    className: "jsx-1806422534" + " " + "contact-link"
+  }, "byronpolley@live.com")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "1806422534",
+    css: ".contact-details.jsx-1806422534{color:white;font-size:26px;line-height:18px;font-weight:700;text-align:center;-webkit-letter-spacing:2px;-moz-letter-spacing:2px;-ms-letter-spacing:2px;letter-spacing:2px;}.contact-link.jsx-1806422534{color:red;position:relative;-webkit-transition:0.3s;transition:0.3s;display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);-ms-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);}.contact-link.jsx-1806422534:hover{-webkit-animation-name:hvr-pulse-jsx-1806422534;animation-name:hvr-pulse-jsx-1806422534;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;}.contact-link.jsx-1806422534:after{position:absolute;content:'';height:4px;background:red;width:100%;bottom:-10px;left:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9iLWIwdC9TaXRlcy9wcm9qZWN0cy9ieXJvbnBvbGxleS9jb21wb25lbnRzL0RldGFpbHMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS2tCLEFBR3VCLEFBUUYsQUFRZSxBQU1QLFVBYkEsRUFSSCxNQXNCSixTQXJCTSxDQVFELENBY0wsV0FDSSxJQXRCQyxXQXVCTCxLQXRCTyxNQXVCTCxFQWhCUSxVQU5GLENBdUJaLE9BQ1QsRUFad0IsQ0FMQSxzQkFDbUIsNkJBS1IsK0JBWm5DLDJDQWFxQyxnQ0FMckMsOENBTUEiLCJmaWxlIjoiL1VzZXJzL2ItYjB0L1NpdGVzL3Byb2plY3RzL2J5cm9ucG9sbGV5L2NvbXBvbmVudHMvRGV0YWlscy5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IERldGFpbHMgPSAoKSA9PiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgICAgPGgxIGNsYXNzTmFtZT1cInRpdGxlXCI+TGV0J3MgQ2hhdDwvaDE+XG4gICAgICAgIDxwIGNsYXNzTmFtZT1cImRlc2NyaXB0aW9uXCI+WW91IGNhbiBjb250YWN0IG1lIHRocm91Z2ggdGhlIGZvbGxvd2luZyBjaGFubmVscy48L3A+XG4gICAgICAgIDxwIGNsYXNzTmFtZT1cImNvbnRhY3QtZGV0YWlsc1wiPjxhIGNsYXNzTmFtZT1cImNvbnRhY3QtbGlua1wiIGhyZWY9XCJtYWlsdG86Ynlyb25wb2xsZXlAbGl2ZS5jb21cIj5ieXJvbnBvbGxleUBsaXZlLmNvbTwvYT48L3A+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5jb250YWN0LWRldGFpbHMge1xuICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgICBmb250LXNpemU6IDI2cHg7XG4gICAgICAgICAgbGluZS1oZWlnaHQ6IDE4cHg7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgbGV0dGVyLXNwYWNpbmc6IDJweDtcbiAgICAgICAgfVxuICAgICAgICAuY29udGFjdC1saW5rIHtcbiAgICAgICAgICBjb2xvcjogcmVkO1xuICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICB0cmFuc2l0aW9uOiAwLjNzO1xuICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuICAgICAgICAgIHRyYW5zZm9ybTogcGVyc3BlY3RpdmUoMXB4KSB0cmFuc2xhdGVaKDApO1xuICAgICAgICB9XG4gICAgICAgIC5jb250YWN0LWxpbms6aG92ZXIge1xuICAgICAgICAgIGFuaW1hdGlvbi1uYW1lOiBodnItcHVsc2U7XG4gICAgICAgICAgYW5pbWF0aW9uLWR1cmF0aW9uOiAxcztcbiAgICAgICAgICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBsaW5lYXI7XG4gICAgICAgICAgYW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDogaW5maW5pdGU7ICAgICAgICBcbiAgICAgICAgfVxuICAgICAgICAuY29udGFjdC1saW5rOmFmdGVyIHtcbiAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgY29udGVudDogJyc7XG4gICAgICAgICAgaGVpZ2h0OiA0cHg7XG4gICAgICAgICAgYmFja2dyb3VuZDogcmVkO1xuICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIGJvdHRvbTogLTEwcHg7XG4gICAgICAgICAgbGVmdDogMDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApXG4gIFxuICBleHBvcnQgZGVmYXVsdCBEZXRhaWxzIl19 */\n/*@ sourceURL=/Users/b-b0t/Sites/projects/byronpolley/components/Details.js */"
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Details);
+
+/***/ })
+
+})
+//# sourceMappingURL=index.js.5821b1785b59951f81ea.hot-update.js.map

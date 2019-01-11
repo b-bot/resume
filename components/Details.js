@@ -1,29 +1,48 @@
+var Icon = require('react-evil-icons');
+
 const Details = () => (
     <div className="container">
         <h1 className="title">Let's Chat</h1>
         <p className="description">You can contact me through the following channels.</p>
-        <p className="contact-details">For all professional enquiries please <a className="contact-link" href="mailto:byronpolley@live.com">Email me</a> or send me a message on <a className="contact-link" href="https://linkedin.com/in/byronpolley">LinkedIn</a>.</p>
+        <Icon name="ei-comment" size="m" />
+        <p className="contact-details"><a className="contact-link" href="mailto:byronpolley@live.com">byronpolley@live.com</a></p>
       <style jsx>{`
         .contact-details {
           color: white;
-          font-size: 18px;
+          font-size: 24px;
           line-height: 18px;
-          font-weight: 700;
+          font-weight: 400;
           text-align: center;
+          letter-spacing: 2px;
         }
         .contact-link {
-          color: red;
+          color: white;
           position: relative;
           transition: 0.3s;
+          display: inline-block;
+          vertical-align: middle;
+          transform: perspective(1px) translateZ(0);
+        }
+        .contact-link:hover {
+          animation-name: hvr-pulse;
+          font-weight: 700;
+          animation-duration: 1s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;    
+          transform: scale(1.1);    
         }
         .contact-link:after {
           position: absolute;
           content: '';
-          height: 1px;
+          height: 2px;
           background: red;
           width: 100%;
-          bottom: 0;
+          bottom: -12px;
           left: 0;
+          transition: 0.3s;
+        }
+        .contact-link:hover:after {
+          height: 4px;
         }
       `}</style>
     </div>

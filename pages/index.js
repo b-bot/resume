@@ -21,6 +21,13 @@ import Footer from '../components/Footer'
 const Index = () => (
   <div>
     <Head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98859891-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-98859891-1');
+    </script>
       <title>Byron Polley</title>
       <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
       <meta charSet='utf-8' />
@@ -60,17 +67,11 @@ const Index = () => (
     <section id="experience">
       <Experience />
     </section>
-    <section id="bio">
-        <Bio />
-    </section>
-    <section id="skills">
-      <Skills />
+    <section id="details">
+      <Details />
     </section>
     <section id="resume">
       <Resume />
-    </section>
-    <section id="details">
-      <Details />
     </section>
     <section id="github">
       <Github />

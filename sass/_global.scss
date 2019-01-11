@@ -194,33 +194,15 @@
     }
   }
 
-  .icon--ei-sc-facebook {
-    fill: black;
+  .icon--ei-comment {
+    fill: white;
     width: 2.5rem;
     height: 2.5rem;
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
   }
-  .icon--ei-sc-facebook:hover {
-    fill: red;
-  }
-  
-  .icon--ei-sc-instagram {
-    fill: black;
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  .icon--ei-sc-instagram:hover {
-    fill: red;
-  }
-  
-  .icon--ei-sc-twitter{
-    fill: black;
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  .icon--ei-sc-twitter:hover {
-    fill: red;
-  }
-  
+
   .icon--ei-sc-linkedin {
     fill: black;
     width: 2.5rem;
@@ -236,15 +218,6 @@
     height: 2.5rem;
   }
   .icon--ei-sc-github:hover {
-    fill: red;
-  }
-  
-  .icon--ei-sc-soundcloud {
-    fill: black;
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  .icon--ei-sc-soundcloud:hover {
     fill: red;
   }
   

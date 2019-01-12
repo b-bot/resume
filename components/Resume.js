@@ -1,14 +1,14 @@
 const Resume = () => (
     <div className="container">
     <h1 className="title-alt">Download Résumé</h1>
-    <p className="description-alt">A quick-reference visual version or the standard one are provided for download below.</p>
+    <p className="description-alt">A written resume format and a quick-reference visual CV are provided below.</p>
     <div className="container">
       <div className="row">
         <div className="col">
-        <a href="/static/resume.pdf" download><button className="resume">Text</button></a>
+        <a className="resume" href="/static/resume.pdf" target="_blank">Text</a>
         </div>
         <div className="col">
-        <a href="/static/cv.pdf" download><button className="resume">Visual CV</button></a>
+        <a className="resume" href="/static/cv.pdf" target="_blank">Visual CV</a>
         </div>
       </div>
     </div>
@@ -26,7 +26,8 @@ const Resume = () => (
             text-transform: uppercase;
             color: white;
             font-weight: bold;
-            min-width: 6.5rem;
+            max-width: 7rem;
+            border: 1px solid transparent;
           }
           .resume:hover {
             background: white;

@@ -12,7 +12,7 @@ const Terminal = props => (
         <div className="term-cont">
           <div className="term-line">
             <span className="term-prompt">$ </span><span className="term-cmd current">Hi friend!<br></br></span><br />
-            <span className="term-prompt"></span><span className="term-cmd current">I'm Byron Polley, a software developer based in Johannesburg, South Africa. <br></br> <br></br>I also produce music under the alias <br></br> b-b0t.</span><span className="term-caret">&#x2588;</span>
+            <span className="term-prompt"></span><span className="term-cmd current">I'm Byron Polley, a UI designer & software developer based in Johannesburg, South Africa. <br></br> <br></br>I also produce music and design sounds under the alias <span className="term-link">b-b0t</span>.</span><span className="term-caret">&#x2588;</span>
           </div>
         </div>
       </div>
@@ -69,6 +69,10 @@ const Terminal = props => (
           color: inherit;
           font-family: inherit;
           font-size: 1rem;
+        }
+
+        .term-link {
+          whitespace: no-wrap;
         }
 
         .term-caret {

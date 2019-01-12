@@ -3,14 +3,14 @@ var Icon = require('react-evil-icons');
 const Footer = () => (
   <div className="footer">
       <div className="social">
+      <a href="mailto:byronpolley@live.com">
+          <Icon name="ei-envelope" size="s" />
+        </a>
         <a href="https://www.linkedin.com/in/byronpolley/">
           <Icon name="ei-sc-linkedin" size="s" />
         </a>
         <a href="https://github.com/b-b0t">
           <Icon name="ei-sc-github" size="s" />
-        </a>
-        <a href="mailto:byronpolley@live.com">
-          <Icon name="ei-envelope" size="s" />
         </a>
       </div>
       <style jsx>{`

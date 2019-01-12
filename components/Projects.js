@@ -3,7 +3,7 @@ var Icon = require('react-evil-icons');
 const Projects = () => (
   <div>
   <h1 className="title">Projects</h1>
-  <p className="description">I've worked on some really interesting stuff, here's a showreel.</p>
+  <p className="description">I've worked on some interesting stuff, here's a showreel.</p>
     <div className="container projects">
       <div className="row project-container">
         <div className="col-4 col-md-2">

@@ -1,6 +1,7 @@
 const withSass = require('@zeit/next-sass')
 module.exports = withSass({
-  sassLoaderOptions: {
-    includePaths: ["styles.scss"]
+  webpack(config, options) {
+    return config
   },
+  target: 'serverless'
 })

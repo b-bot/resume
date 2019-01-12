@@ -1,8 +1,8 @@
 const Github = () => (
   <div className="container">
   <div className="github-chart">
-  <h1 className="title">GitHub Contribution Graph</h1>
-  <p className="description">Everyone needs a little version control right? Go and see how I <a href="https://github.com/b-b0t">Git</a>.</p>
+  <h1 className="title">Contribution Graph</h1>
+  <p className="description">Go and see my code over on <a href="https://github.com/b-b0t" target="_blank">GitHub</a>.</p>
     <img className="img-fluid" src="https://ghchart.rshah.org/ff0000/b-b0t" alt="b" />
     <style jsx>{`
     .github-chart {

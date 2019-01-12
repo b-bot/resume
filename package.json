@@ -1,5 +1,5 @@
 {
-  "name": "byronpolley.com",
+  "name": "resume",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
-    "export": "next export"
+    "start": "next start -p 8000",
+    "now-build": "next build"
   },
   "keywords": [],
   "author": "",
@@ -16,11 +17,11 @@
     "@engineerapart/nextscript": "^1.0.2",
     "@zeit/next-sass": "^1.0.1",
     "express": "^4.16.4",
-    "next": "^7.0.2",
+    "next": "^8.0.0-canary.2",
     "node-sass": "^4.10.0",
     "push-dir": "^0.4.1",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "react-evil-icons": "^0.5.0",
     "react-ga": "^2.5.6",
     "react-particles-js": "^2.4.0",

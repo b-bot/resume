@@ -3,7 +3,7 @@ var Icon = require('react-evil-icons');
 const Details = () => (
     <div className="container">
         <h1 className="title">Let's Chat</h1>
-        <p className="description">You can contact me through the following channels.</p>
+        <p className="description">For enquiries drop me a mail.</p>
         <Icon name="ei-comment" size="m" />
         <p className="contact-details"><a className="contact-link" href="mailto:byronpolley@live.com">byronpolley@live.com</a></p>
       <style jsx>{`
@@ -14,6 +14,7 @@ const Details = () => (
           font-weight: 400;
           text-align: center;
           letter-spacing: 2px;
+          padding-bottom: 3rem;
         }
         .contact-link {
           color: white;

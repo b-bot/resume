@@ -3,6 +3,7 @@
     top: 0;
     bottom: 0;
     z-index: 1;
+    pointer-events: none;
 }
 
 
@@ -12,9 +13,27 @@
     padding: 2rem;
 }
 
-#song {
+#soundcloud {
     background: white;
     color: black;
+}
+
+#skills {
+  padding: 0;
+  position: relative;
+}
+
+#resume {
+  background: white;
+  color: black;
+}
+
+#bio {
+  margin-top: 3.4rem;
+}
+
+#github {
+  padding: 3rem 0 6rem 0;
 }
 
 .ei-arrow-down {
@@ -32,6 +51,23 @@
     fill: white !important;
     width: 2rem;
     height: 2rem;
+  }
+
+  .technologies {
+    padding: 2rem;
+    margin-top: 4rem;
+  }
+  .techbox {
+    color: white;
+    padding: 1rem;
+  }
+  .box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin-right: -15px;
+    margin-left: -15px;
   }
   
   .projects {
@@ -447,3 +483,87 @@
       transform: translateX(0);
     }
   }
+
+  .icon--ei-chevron-left {
+    margin: 0 auto;
+    width: 50%;
+    fill: white;
+}
+
+.icon--ei-chevron-right {
+    margin: 0 auto;
+    width: 50%;
+    fill: white;
+}
+
+.icon--ei-eye {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-play {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-chart {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-cart {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-pencil {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-gear {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.icon--ei-like {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    fill: white;
+}
+
+.igf-image {
+    margin: 1rem !important;
+}
+
+.igf-next-button {
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+    color: red;
+
+    font-size: 16px;
+    letter-spacing: 4px;
+
+    &:hover {
+        text-decoration: underline;
+        color: white;
+        cursor: pointer;
+    }
+}

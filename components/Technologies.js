@@ -173,22 +173,6 @@ const Technologies = props => (
     </div>
   </div>
   <style jsx>{`
-    .technologies {
-      padding: 2rem;
-      margin-top: 4rem;
-    }
-    .techbox {
-      color: white;
-      padding: 1rem;
-    }
-    .box {
-      display: -ms-grid;
-      display: grid;
-      -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      margin-right: -15px;
-      margin-left: -15px;
-    }
     .logo {
       padding: 1.5rem;
       background: white;

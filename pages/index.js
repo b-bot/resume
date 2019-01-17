@@ -14,13 +14,12 @@ import Github from '../components/Github'
 import Resume from '../components/Resume'
 import Details from '../components/Details'
 import Footer from '../components/Footer'
+import Layout from '../components/Layout';
 
 
 const Index = () => (
-  <div>
+  <Layout>
     <Head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98859891-1"></script>
-      <script name="google" src="static/google.js" key="google"></script>
       <title>Byron Polley | Résumé</title>
       <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
       <meta charSet='utf-8' />
@@ -41,6 +40,7 @@ const Index = () => (
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css" />
       <script src="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js"></script>
       <script name="custom" src="static/custom.js" key="custom"></script>
+      <meta name="google-site-verification" content="HKv2z1h0i_qfsrupXwLoP9JuIhViI4HFxrsv5PsRw9g" />
     </Head>
     <Header />
     <Stars />
@@ -48,7 +48,7 @@ const Index = () => (
       <Terminal />
       <Icon name="ei-arrow-down" className="next" size="l" />
     </section>
-    <section id="song">
+    <section id="soundcloud">
       <Soundcloud />
     </section>
     <section id="technologies">
@@ -73,7 +73,7 @@ const Index = () => (
       <img className="b0t" src="static/b0t.png" />
     </div>
     <Footer />
-  </div>
+  </Layout>
 )
 
 export default Index

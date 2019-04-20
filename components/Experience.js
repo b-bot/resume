@@ -53,7 +53,7 @@ const Experience = props => (
     >
       <h3 className="vertical-timeline-element-title">Graduate</h3>
       <h4 className="vertical-timeline-element-subtitle"><a href="https://msa.ac.za">Monash University</a></h4>
-      <a target="_blank" href="https://wes.credly.com/embed.html#/?member_badge_id=16378425"><img className="wes-badge" src="/static/wes.png" /></a>
+      <a target="_blank" href="https://badges.wes.org/Evidence?i=7f9923f8-b98a-45dd-bcc8-018b1c88303f&type=ca"><img className="wes-badge" src="/static/wes.png" /></a>
       <p>
         Bachelor of Computer & Information Sciences
       </p>

@@ -1,14 +1,14 @@
 const Resume = () => (
     <div className="container">
-    <h1 className="title-alt">Download Résumé</h1>
-    <p className="description-alt">A written resume format and a quick-reference visual CV are provided below.</p>
+    <h1 className="title-alt">Résumé / CV</h1>
+    <p className="description-alt">A written résumé format and a quick-reference visual CV are provided below.</p>
     <div className="container">
       <div className="row">
         <div className="col">
-        <a className="resume" href="/static/resume.pdf" target="_blank">Text</a>
+        <a className="resume" href="https://1drv.ms/b/s!AibaBEGIau66jrI5XMDhr21iiSjYyg" target="_blank">View Résumé</a>
         </div>
         <div className="col">
-        <a className="resume" href="/static/cv.pdf" target="_blank">Visual CV</a>
+        <a className="resume" href="https://sketch.cloud/s/wwOVj/Jn35ZL0" target="_blank">View Visual CV</a>
         </div>
       </div>
     </div>

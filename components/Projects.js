@@ -22,8 +22,8 @@ const Projects = () => (
           </a>
         </div>
         <div className="col-4 col-md-2">
-          <a href="http://thebread.co.za" target="_blank">
-            <div className="project-item"><Icon className="external" name="ei-external-link" size="s" /><img className="img-fluid project-image" src="static/projects/bread.png" /></div>
+          <a href="http://nandos.co.za" target="_blank">
+            <div className="project-item"><Icon className="external" name="ei-external-link" size="s" /><img className="img-fluid project-image" src="static/projects/nandos.png" /></div>
           </a>
         </div>
         <div className="col-4 col-md-2">

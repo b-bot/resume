@@ -26,7 +26,7 @@ const Resume = () => (
             text-transform: uppercase;
             color: white;
             font-weight: bold;
-            max-width: 7rem;
+            max-width: 10rem;
             border: 1px solid transparent;
           }
           .resume:hover {

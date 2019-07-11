@@ -7,7 +7,6 @@ import Header from '../components/Header'
 import Stars from '../components/Stars'
 import Terminal from '../components/Terminal'
 import Experience from '../components/Experience'
-import Soundcloud from '../components/Soundcloud'
 import Projects from '../components/Projects'
 import Technologies from '../components/Technologies'
 import Github from '../components/Github'
@@ -15,7 +14,6 @@ import Resume from '../components/Resume'
 import Details from '../components/Details'
 import Footer from '../components/Footer'
 import Layout from '../components/Layout';
-
 
 const Index = () => (
   <Layout>
@@ -47,9 +45,6 @@ const Index = () => (
     <section id="intro">
       <Terminal />
       <Icon name="ei-arrow-down" className="next" size="l" />
-    </section>
-    <section id="soundcloud">
-      <Soundcloud />
     </section>
     <section id="technologies">
         <Technologies />

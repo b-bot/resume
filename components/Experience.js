@@ -23,14 +23,14 @@ const Experience = props => (
     </VerticalTimelineElement>
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
-      date="May 2017 - Present"
+      date="May 2017 - May 2019"
       iconStyle={{ background: '#c73629', color: '#fff' }}
       icon={<Artificial />}
     >
       <h3 className="vertical-timeline-element-title">Founder</h3>
-      <h4 className="vertical-timeline-element-subtitle"><a href="https://artificialeq.co">Artificial EQ</a></h4>
+      <h4 className="vertical-timeline-element-subtitle">Artificial EQ</h4>
       <p>
-        Sound Engineering, Podcasting, Music Curating, Writing
+        Software Development, UI/UX Design, SEO & Analytics, Digital Marketing, eCommerce
       </p>
     </VerticalTimelineElement>
     <VerticalTimelineElement
@@ -52,7 +52,7 @@ const Experience = props => (
       icon={<Monash />}
     >
       <h3 className="vertical-timeline-element-title">Graduate</h3>
-      <h4 className="vertical-timeline-element-subtitle"><a href="https://msa.ac.za">Monash University</a></h4>
+      <h4 className="vertical-timeline-element-subtitle"><a href="https://www.monash.edu/">Monash University</a></h4>
       <a target="_blank" href="https://badges.wes.org/Evidence?i=7f9923f8-b98a-45dd-bcc8-018b1c88303f&type=ca"><img className="wes-badge" src="/static/wes.png" /></a>
       <p>
         Bachelor of Computer & Information Sciences

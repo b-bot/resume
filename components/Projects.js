@@ -6,6 +6,11 @@ const Projects = () => (
   <p className="description">I've worked on some interesting stuff, here's a showreel.</p>
     <div className="container projects">
       <div className="row project-container">
+      <div className="col-4 col-md-2">
+          <a href="https://www.aig.co.za/" target="_blank">
+            <div className="project-item"><Icon className="external" name="ei-external-link" size="s" /><img className="img-fluid project-image" src="static/projects/aig.png" /></div>
+          </a>
+        </div>
         <div className="col-4 col-md-2">
           <a href="http://vox.co.za" target="_blank">
             <div className="project-item"><Icon className="external" name="ei-external-link" size="s" /><img className="img-fluid project-image" src="static/projects/vox.png" /></div>
@@ -29,11 +34,6 @@ const Projects = () => (
         <div className="col-4 col-md-2">
           <a href="http://pearlthusiofficial.com" target="_blank">
             <div className="project-item"><Icon className="external" name="ei-external-link" size="s" /><img className="img-fluid project-image" src="static/projects/pearlthusi.png" /></div>
-          </a>
-        </div>
-        <div className="col-4 col-md-2">
-          <a href="http://creativewill.co.za" target="_blank">
-            <div className="project-item"><Icon className="external" name="ei-external-link" size="s" /><img className="img-fluid project-image" src="static/projects/ocw.png" /></div>
           </a>
         </div>
       </div>

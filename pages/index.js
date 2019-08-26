@@ -19,26 +19,44 @@ const Index = () => (
   <Layout>
     <Head>
       <title>Byron Polley | Résumé</title>
-      <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
-      <meta charSet='utf-8' />
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-      <meta name="theme-color" content="black" />
-    	<meta property="og:title" content="Byron Polley" />
-    	<meta property="og:type" content="website" />
-    	<meta property="og:description" content="I'm Byron Polley, a UI designer &amp; software developer based in Johannesburg, South Africa." />
-    	<meta property="og:url" content="https://byronpolley.com" />
-    	<meta property="og:image" content="static/meta/facebook.png" />
+
+      {/* Meta */}
+      <meta charSet="utf-8" />
+      <meta name="author" content="Byron Polley" />
+      <meta name="keywords" content="byron, polley, byron polley, software, software engineering, web, web development, web design, developer, javascript, node, html, css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Software &amp; Sound" />
+
+      {/* Favicon */}
+      <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png?v=2" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
+      <link rel="manifest" href="/static/site.webmanifest" />
+      <link rel="mask-icon" href="/static/safari-pinned-tab.svg" color="#2a2a2a" />
+      <meta name="msapplication-TileColor" content="#2a2a2a" />
+      <meta name="theme-color" content="#2a2a2a" />
+
+      {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@b_b0t" />
       <meta name="twitter:creator" content="@b_b0t" />
-      <meta name="twitter:title" content="Byron Polley" />
-      <meta name="twitter:description" content="I'm Byron Polley, a UI designer &amp; software developer based in Johannesburg, South Africa." />
-      <meta name="twitter:image" content="static/meta/twitter.png" />
+      <meta name="twitter:site" content="@b_b0t" />
+      <meta name="twitter:image" content="https://byronpolley.com/static/og.jpg" />
+
+      {/* Facebook */}
+      <meta property="og:title" content="Byron Polley" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://byronpolley.com" />
+      <meta property="og:description" content="Multi-disciplinary software engineer and designer. How I can I help you, human?" />
+      <meta property="og:image" content="https://byronpolley.com/static/og.jpg" />
+      <meta property="fb:app_id" content="XXXXXXXXXXXXXXX" />
+
+      {/* Misc */}
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black" />
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossOrigin="anonymous" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css" />
       <script src="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js"></script>
       <script name="custom" src="static/custom.js" key="custom"></script>
-      <meta name="google-site-verification" content="HKv2z1h0i_qfsrupXwLoP9JuIhViI4HFxrsv5PsRw9g" />
     </Head>
     <Header />
     <Stars />

@@ -48,7 +48,7 @@ const Index = () => (
       <meta property="og:url" content="https://byronpolley.com" />
       <meta property="og:description" content="Multi-disciplinary software engineer and designer. How I can I help you, human?" />
       <meta property="og:image" content="https://byronpolley.com/static/og.jpg" />
-      <meta property="fb:app_id" content="XXXXXXXXXXXXXXX" />
+      <meta property="fb:app_id" content="915132422187282" />
 
       {/* Misc */}
       <meta name="apple-mobile-web-app-capable" content="yes" />

@@ -12,7 +12,7 @@ const Terminal = props => (
         <div className="term-cont">
           <div className="term-line">
             <span className="term-prompt">$ </span><span className="term-cmd current">Hi friend!<br></br></span><br />
-            <span className="term-prompt"></span><span className="term-cmd current">I'm <a className="term-link" href="https://www.linkedin.com/in/byronpolley/" target="_blank">Byron Polley</a>, a UI designer & software developer based in Johannesburg, South Africa. <br></br></span><span className="term-caret">&#x2588;</span>
+            <span className="term-prompt"></span><span className="term-cmd current">I'm <a className="term-link" href="https://b-b0t.com/" target="_blank">Byron Polley</a>, a software engineer and designer based in Johannesburg, South Africa.</span><span className="term-caret">&#x2588;</span>
           </div>
         </div>
       </div>

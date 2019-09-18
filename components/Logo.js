@@ -53,8 +53,8 @@ const Logo = props => (
     <style jsx>{`
     .logo {
       position: absolute;
-      top: 0.5rem;
-      left: 1rem;
+      top: 20px;
+      left: 40px;
       max-width: 25px;
     }
     .logo:hover {

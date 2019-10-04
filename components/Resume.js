@@ -8,7 +8,7 @@ const Resume = () => (
         <a className="resume" href="https://1drv.ms/b/s!AibaBEGIau66jrI5XMDhr21iiSjYyg" target="_blank">View Résumé</a>
         </div>
         <div className="col">
-        <a className="resume" href="https://sketch.cloud/s/wwOVj/Jn35ZL0" target="_blank">View Visual CV</a>
+        <a className="resume" href="https://xd.adobe.com/view/e566ac74-91e1-48b5-6826-514f4d4baf46-9357/?fullscreen&hints=off" target="_blank">View Visual CV</a>
         </div>
       </div>
     </div>

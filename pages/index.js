@@ -61,7 +61,7 @@ const Index = () => (
     <Header />
     <Stars />
     <section id="intro">
-    <h1 className="updated">September 2019</h1>
+    <h1 className="updated">January 2020</h1>
       <Terminal />
       <Icon name="ei-arrow-down" className="next" size="l" />
     </section>

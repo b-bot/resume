@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "name": "resume",
   "alias": "resume.byronpolley.com",
-  "builds": [
-      { "src": "package.json", "use": "@now/next" }
-  ]
+  "builds": [{ "src": "package.json", "use": "@now/next" }]
 }

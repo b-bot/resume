@@ -4,7 +4,7 @@ import Icon from "react-evil-icons";
 
 import "../styles.scss";
 import Header from "../components/Header";
-import Stars from "../components/Stars";
+import Stars from "../components/Stars.js";
 import Terminal from "../components/Terminal";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";

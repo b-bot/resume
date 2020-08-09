@@ -1,149 +1,172 @@
 @media only screen and (max-width: 768px) {
-    body {
-      background: #000000;
-      background: -webkit-linear-gradient(to top, #434343, #000000);
-      background: linear-gradient(to top, #434343, #000000);
-    }
-    section {
-      padding: 3rem 0;
-    }
-    .description {
-      padding-left: 15px;
-      padding-right: 15px;
-      text-align: center;
-    }
-    #intro {
-      padding: 0;
-    }
-      .logo {
-        top: 0.5rem;
-        left: 1rem;
-        max-width: 70px;
-      }
-  
-      .soundcloud {
-        padding: 0 !important;
-      }
-  
-    .portfolio-item {
-      img {
-        -webkit-filter: grayscale(0%) opacity(100%);
-        filter: grayscale(0%);
-      }
-    }
-    .project-item {
-      margin: 1.5rem 0.5rem;
-      .external {
-        top: 30%;
-      }
-    }
-    .igf-image {
-        margin: 5px!important;
-      }
-      .techbox {
-        padding: 0.5rem;
-      }
-      .box {
-        -ms-grid-columns: (minmax(150px, 1fr))[auto-fill];
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        margin-right: -15px;
-        margin-left: -15px;
-      }
+  body {
+    background: #000000;
+    background: -webkit-linear-gradient(to top, #434343, #000000);
+    background: linear-gradient(to top, #434343, #000000);
+  }
+  section {
+    padding: 3rem 0;
+  }
+  .description {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  #intro {
+    padding: 0;
+  }
+  .logo {
+    top: 0.5rem;
+    left: 1rem;
+    max-width: 70px;
   }
 
-  @media only screen and (min-width:768px) {
-    .vertical-timeline-element-content h2 {
-      font-size: 20px;
-      font-size: 1.25rem;
-    }
-  
-    .vertical-timeline-element-content p {
-      font-size: 16px;
-      font-size: 1rem;
-      color: black;
-    }
-  
-    .vertical-timeline-element-content .vertical-timeline-element-date {
-      font-size: 14px;
-      font-size: .875rem;
+  .soundcloud {
+    padding: 0 !important;
+  }
+
+  .portfolio-item {
+    img {
+      -webkit-filter: grayscale(0%) opacity(100%);
+      filter: grayscale(0%);
     }
   }
-  
-  @media only screen and (min-width:1170px) {
-    .vertical-timeline--two-columns .vertical-timeline-element-content {
-      margin-left: 0;
-      padding: 1.5em;
-      width: 40%;
-    }
-  
-    .vertical-timeline--two-columns .vertical-timeline-element-content::before {
-      top: 24px;
-      left: 100%;
-      border-color: transparent;
-      border-left-color: #fff;
-    }
-  
-    .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
-      position: absolute;
-      width: 100%;
-      left: 140%;
-      top: 6px;
-      font-size: 16px;
-      font-size: 1rem;
-    }
-  
-    .vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content {
-      float: right;
-    }
-  
-    .vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content::before, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content::before {
-      top: 24px;
-      left: auto;
-      right: 100%;
-      border-color: transparent;
-      border-right-color: #fff;
-    }
-  
-    .vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {
-      left: auto;
-      right: 140%;
-      text-align: right;
+  .project-item {
+    margin: 1.5rem 0.5rem;
+    .external {
+      top: 30%;
     }
   }
-  
-  .vertical-timeline--animate .vertical-timeline-element-content.is-hidden {
-    visibility: hidden;
+  .igf-image {
+    margin: 5px !important;
   }
-  
-  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-    visibility: visible;
-    -webkit-animation: cd-bounce-2 .6s;
-    -moz-animation: cd-bounce-2 .6s;
-    animation: cd-bounce-2 .6s;
+  .techbox {
+    padding: 0.5rem;
   }
-  
-  @media only screen and (min-width:1170px) {
-    .vertical-timeline--two-columns.vertical-timeline--animate .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content.bounce-in, .vertical-timeline--two-columns.vertical-timeline--animate .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content.bounce-in {
-      -webkit-animation: cd-bounce-2-inverse .6s;
-      -moz-animation: cd-bounce-2-inverse .6s;
-      animation: cd-bounce-2-inverse .6s;
-    }
+  .box {
+    -ms-grid-columns: (minmax(150px, 1fr)) [auto-fill];
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    margin-right: -15px;
+    margin-left: -15px;
   }
-  
-  @media only screen and (max-width:1169px) {
-    .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-      visibility: visible;
-      -webkit-animation: cd-bounce-2-inverse .6s;
-      -moz-animation: cd-bounce-2-inverse .6s;
-      animation: cd-bounce-2-inverse .6s;
-    }
+}
+
+@media only screen and (min-width: 768px) {
+  .vertical-timeline-element-content h2 {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+
+  .vertical-timeline-element-content p {
+    font-size: 16px;
+    font-size: 1rem;
+    color: black;
+  }
+
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline--two-columns .vertical-timeline-element-content {
+    margin-left: 0;
+    padding: 1.5em;
+    width: 40%;
+  }
+
+  .vertical-timeline--two-columns .vertical-timeline-element-content::before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: #fff;
+  }
+
+  .vertical-timeline--two-columns
     .vertical-timeline-element-content
     .vertical-timeline-element-date {
-      color: black;
-    }
-    .wes-badge {
-      top: auto !important;
-      bottom: 0.5rem;
-      max-width: 4rem !important;
-    }
+    position: absolute;
+    width: 100%;
+    left: 140%;
+    top: 6px;
+    font-size: 16px;
+    font-size: 1rem;
   }
+
+  .vertical-timeline--two-columns
+    .vertical-timeline-element.vertical-timeline-element--right
+    .vertical-timeline-element-content,
+  .vertical-timeline--two-columns
+    .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+    .vertical-timeline-element-content {
+    float: right;
+  }
+
+  .vertical-timeline--two-columns
+    .vertical-timeline-element.vertical-timeline-element--right
+    .vertical-timeline-element-content::before,
+  .vertical-timeline--two-columns
+    .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+    .vertical-timeline-element-content::before {
+    top: 24px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: #fff;
+  }
+
+  .vertical-timeline--two-columns
+    .vertical-timeline-element.vertical-timeline-element--right
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date,
+  .vertical-timeline--two-columns
+    .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    left: auto;
+    right: 140%;
+    text-align: right;
+  }
+}
+
+.vertical-timeline--animate .vertical-timeline-element-content.is-hidden {
+  visibility: hidden;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+  visibility: visible;
+  -webkit-animation: cd-bounce-2 0.6s;
+  -moz-animation: cd-bounce-2 0.6s;
+  animation: cd-bounce-2 0.6s;
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline--two-columns.vertical-timeline--animate
+    .vertical-timeline-element.vertical-timeline-element--right
+    .vertical-timeline-element-content.bounce-in,
+  .vertical-timeline--two-columns.vertical-timeline--animate
+    .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+    .vertical-timeline-element-content.bounce-in {
+    -webkit-animation: cd-bounce-2-inverse 0.6s;
+    -moz-animation: cd-bounce-2-inverse 0.6s;
+    animation: cd-bounce-2-inverse 0.6s;
+  }
+}
+
+@media only screen and (max-width: 1169px) {
+  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-2-inverse 0.6s;
+    -moz-animation: cd-bounce-2-inverse 0.6s;
+    animation: cd-bounce-2-inverse 0.6s;
+  }
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    color: black;
+  }
+  .wes-badge {
+    top: auto !important;
+    bottom: 0.5rem;
+    max-width: 4rem !important;
+  }
+}

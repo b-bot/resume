@@ -107,7 +107,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    fill: red;
+    fill: #18aafa;
     width: 3rem;
     height: 3rem;
     transform: translateX(-50%) translateY(-50%);
@@ -349,7 +349,7 @@
 .vertical-timeline-element-subtitle a {
   color: gray;
   &:hover {
-    color: red;
+    color: #18aafa;
   }
 }
 
@@ -567,7 +567,7 @@
   background: transparent;
   border: none;
   padding: 0.5rem;
-  color: red;
+  color: #18aafa;
 
   font-size: 16px;
   letter-spacing: 4px;

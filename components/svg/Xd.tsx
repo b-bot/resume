@@ -1,6 +1,6 @@
 const Xd = (props) => (
   <svg
-    enable-background="new 0 0 240 234"
+    enableBackground="new 0 0 240 234"
     viewBox="0 0 240 234"
     xmlns="http://www.w3.org/2000/svg"
   >

@@ -12,9 +12,9 @@ import Npm from "../components/svg/Npm";
 import Nodejs from "../components/svg/Nodejs";
 import Php from "../components/svg/Php";
 import Reactjs from "../components/svg/Reactjs";
-import Sass from "../components/svg/Sass";
 import Shopify from "../components/svg/Shopify";
 import Serverless from "../components/svg/Serverless";
+import Styled from "../components/svg/Styled";
 import Typescript from "../components/svg/Typescript";
 import Webpack from "../components/svg/Webpack";
 import Wordpress from "../components/svg/Wordpress";
@@ -193,10 +193,10 @@ const Technologies = (props) => (
         <div className="col">
           <div className="techbox">
             <div className="logo">
-              <Sass />
+              <Styled />
             </div>
             <div className="tech">
-              <p>Sass</p>
+              <p>Styled Components</p>
             </div>
           </div>
         </div>

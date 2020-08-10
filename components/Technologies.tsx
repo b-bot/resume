@@ -249,7 +249,7 @@ const Technologies = (props) => (
         border-radius: 4px;
         margin: 0 auto;
         max-width: 100%;
-        min-height: 160px;
+        min-height: 153px;
         box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1),
           0 1px 2px rgba(255, 255, 255, 0.24);
         transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -268,6 +268,11 @@ const Technologies = (props) => (
       svg {
         width: 100%;
         height: 100%;
+      }
+      @media only screen and (max-width: 768px) {
+        .logo {
+          min-height: 0;
+        }
       }
     `}</style>
   </div>

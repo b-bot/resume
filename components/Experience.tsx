@@ -118,8 +118,6 @@ const Experience = (props) => (
         position: absolute;
         top: 0.5rem;
         right: 0.5rem;
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
       }
       .png {
         max-width: 100%;
